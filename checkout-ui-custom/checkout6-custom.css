@@ -927,34 +927,21 @@ body .x-checkout-steps-wrapper {
 
 
     @media screen and (max-width: 980px) {
-
         .add-service-container a,
         .add-service-container a:hover {
             background: #000 !important;
             color: #BA9916 !important;
             text-shadow: none !important;
         }
-
-
-
     }
+
     #payment-group-custom201PaymentGroupPaymentGroup,
     #payment-group-creditDirectSalePaymentGroup,
     #payment-group-debitDirectSalePaymentGroup {
         display: none;
     }
 
-
-
-    /* .add-service-container a::after {
-   content: "Mensagem personalizada";
-   color: #BA9916;
-    font-size: 13px;
-}*/
-
 }
-
-
 
 #cart-to-orderform {
     background-image: none;
@@ -965,12 +952,14 @@ body .x-checkout-steps-wrapper {
     font-family: 'Work Sans', sans-serif;
     font-size: 0;
 }
+
 #cart-to-orderform:before{
     content:"Finalizar Compra";
     color: white;
     font-size: 16px;
     line-height: 22px;
 }
+
 #cart-to-orderform:hover{
     transform:scale(1.05);
     font-weight: bold;  
@@ -988,10 +977,15 @@ span.link-choose-more-products-wrapper {
 .cart-template.full-cart.span12.active {
     padding:20px
 }
+
 a#orderform-minicart-to-cart {
     display: none;
 }
-#bricks-component-tqcr3VKt-d-Kz8dWxOfwOA-wrapper.rdstation-popup-position-bottom_right.floating-button.floating-button--close .bricks--floating--button {
-  
+
+#bricks-component-tqcr3VKt-d-Kz8dWxOfwOA-wrapper.rdstation-popup-position-bottom_right.floating-button.floating-button--close .bricks--floating--button { 
     display: none !important;
+}
+
+.cart-more-options.span7 {
+    position:absolute;
 }
